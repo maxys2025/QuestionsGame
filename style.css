@@ -29,3 +29,12 @@ button {
     color: white;
     font-size: 16px;
 }
+
+#container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s; /* Aggiungi una transizione per un cambio di colore più fluido */
+}
