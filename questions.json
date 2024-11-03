@@ -1,254 +1,75 @@
 [
-    {
-        "text": "Qual è stato uno dei momenti più felici della tua infanzia?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "C'è un insegnante che ha avuto un impatto particolare su di te?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Hai mai avuto un sogno ricorrente? Di cosa si trattava?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual era il tuo gioco preferito da bambino?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual è stato il tuo primo lavoro?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "C'è un film o un libro che ti ha influenzato particolarmente?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "C'è un oggetto che hai conservato per anni?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual è stato il momento più imbarazzante della tua vita?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Hai mai preso una decisione che ti ha cambiato la vita in modo inaspettato?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Ti consideri una persona nostalgica?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual è stato il primo libro o film che ti ha fatto piangere?",
-        "type": "personal",
-        "category": "Passato e Ricordi",
-        "backgroundColor": "#FFFACD",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Se potessi vivere ovunque nel mondo, dove sarebbe?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "C'è una cosa nella tua vita che vorresti realizzare più di ogni altra?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è il lavoro dei tuoi sogni?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Se potessi aprire un'attività, cosa venderesti o che servizio offriresti?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Quale nuova abilità vorresti imparare?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Come immagini la tua vita tra 10 anni?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è il viaggio che sogni di fare?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è un cambiamento che vorresti apportare alla tua vita?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Quale sarebbe la prima cosa che faresti se vincessi alla lotteria?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Se potessi imparare una lingua istantaneamente, quale sarebbe?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è un consiglio che vorresti dare al te stesso del futuro?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Hai mai pensato di trasferirti in un altro paese?",
-        "type": "personal",
-        "category": "Sogni e Obiettivi",
-        "backgroundColor": "#2E8B57",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Come definiresti la tua visione della felicità?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual è il valore o principio più importante nella tua vita?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Se dovessi scegliere tra fama e serenità, quale sceglieresti?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Che cosa significa per te \"successo\"?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Quanto contano per te i soldi nella vita?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Come definiresti l’amicizia vera?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Credi nel destino o nel caso?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Quanto pensi sia importante il perdono nelle relazioni?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Che ruolo hanno per te la gentilezza e l’altruismo?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Come ti rapporti alla competizione? Ti piace?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual è stato uno dei momenti più intimi e vulnerabili della tua vita?",
-        "type": "intimate",
-        "category": "Emozioni e Vulnerabilità",
-        "backgroundColor": "#FF6347",
-        "textColor": "#FFFFFF"
-    },
-    {
-        "text": "Ti capita mai di sentirti solo, anche quando sei con altre persone?",
-        "type": "intimate",
-        "category": "Emozioni e Vulnerabilità",
-        "backgroundColor": "#FF6347",
-        "textColor": "#FFFFFF"
-    },
-    {
-        "text": "Qual è una paura o insicurezza che raramente condividi?",
-        "type": "intimate",
-        "category": "Emozioni e Vulnerabilità",
-        "backgroundColor": "#FF6347",
-        "textColor": "#FFFFFF"
-    }
+    { "question": "Qual è stato uno dei momenti più felici della tua infanzia?", "category": "Passato e Ricordi " },
+    { "question": "C'è un insegnante che ha avuto un impatto particolare su di te?", "category": "Passato e Ricordi " },
+    { "question": "Hai mai avuto un sogno ricorrente? Di cosa si trattava?", "category": "Passato e Ricordi " },
+    { "question": "Qual era il tuo gioco preferito da bambino?", "category": "Passato e Ricordi " },
+    { "question": "Qual è stato il tuo primo lavoro? ", "category": "Passato e Ricordi " },
+    { "question": "C’è un film o un libro che ti ha influenzato particolarmente?", "category": "Passato e Ricordi " },
+    { "question": "C’è un oggetto che hai conservato per anni?", "category": "Passato e Ricordi " },
+    { "question": "Qual è stato il momento più imbarazzante della tua vita?", "category": "Passato e Ricordi " },
+    { "question": "Hai mai preso una decisione che ti ha cambiato la vita in modo inaspettato?", "category": "Passato e Ricordi " },
+    { "question": "Ti consideri una persona nostalgica?", "category": "Passato e Ricordi " },
+    { "question": "Qual è stato il primo libro o film che ti ha fatto piangere?", "category": "Passato e Ricordi " },
+    { "question": "Se potessi vivere ovunque nel mondo, dove sarebbe?", "category": "Sogni e Obiettivi" },
+    { "question": "C'è una cosa nella tua vita che vorresti realizzare più di ogni altra?", "category": "Sogni e Obiettivi" },
+    { "question": "Qual è il lavoro dei tuoi sogni?", "category": "Sogni e Obiettivi" },
+    { "question": "Se potessi aprire un'attività, cosa venderesti o che servizio offriresti?", "category": "Sogni e Obiettivi" },
+    { "question": "Quale nuova abilità vorresti imparare?", "category": "Sogni e Obiettivi" },
+    { "question": "Come immagini la tua vita tra 10 anni?", "category": "Sogni e Obiettivi" },
+    { "question": "Qual è il viaggio che sogni di fare?", "category": "Sogni e Obiettivi" },
+    { "question": "Qual è un cambiamento che vorresti apportare alla tua vita?", "category": "Sogni e Obiettivi" },
+    { "question": "Quale sarebbe la prima cosa che faresti se vincessi alla lotteria?", "category": "Sogni e Obiettivi" },
+    { "question": "Se potessi imparare una lingua istantaneamente, quale sarebbe?", "category": "Sogni e Obiettivi" },
+    { "question": "Qual è un consiglio che vorresti dare al te stesso del futuro?", "category": "Sogni e Obiettivi" },
+    { "question": "Hai mai pensato di trasferirti in un altro paese?", "category": "Sogni e Obiettivi" },
+    { "question": "Come definiresti la tua visione della felicità?", "category": "Valori e credenze" },
+    { "question": "Qual è il valore o principio più importante nella tua vita?", "category": "Valori e credenze" },
+    { "question": "Se dovessi scegliere tra fama e serenità, quale sceglieresti?", "category": "Valori e credenze" },
+    { "question": "Che cosa significa per te successo?", "category": "Valori e credenze" },
+    { "question": "Quanto contano per te i soldi nella vita?", "category": "Valori e credenze" },
+    { "question": "Come definiresti l’amicizia vera?", "category": "Valori e credenze" },
+    { "question": "Credi nel destino o nel caso?", "category": "Valori e credenze" },
+    { "question": "Quanto pensi sia importante il perdono nelle relazioni?", "category": "Valori e credenze" },
+    { "question": "Che ruolo hanno per te la gentilezza e l’altruismo?", "category": "Valori e credenze" },
+    { "question": "Come ti rapporti alla competizione? Ti piace?", "category": "Valori e credenze" },
+    { "question": "Come gestisci le differenze di opinioni nelle amicizie?", "category": "Valori e credenze" },
+    { "question": "Preferisci la sincerità anche quando è dolorosa?", "category": "Valori e credenze" },
+    { "question": "Qual è la cosa più preziosa che possiedi e perché?", "category": "Valori e credenze" },
+    { "question": "Sei una persona mattiniera o nottambula?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Qual è il tuo modo preferito per rilassarti dopo una giornata impegnativa?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Preferisci le vacanze al mare, in montagna o in città?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Se avessi un giorno libero, cosa ti piacerebbe fare?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Qual è il tuo cibo o piatto preferito?", "category": "Stili di Vita e Preferenze" },
+    { "question": "C’è un’attività che hai sempre sognato fare ma non hai mai provato?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Sei più una persona che pianifica o preferisci andare all'avventura?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Hai una serie TV o un film che potresti riguardare mille volte?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Ti consideri più introverso o estroverso?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Come ti immagini una giornata perfetta?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Qual è il tuo genere di film preferito?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Ti piace cucinare? Qual è il tuo piatto forte?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Preferisci vivere in città, in campagna o al mare?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Qual è l'attività che ti rilassa di più?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Preferisci viaggiare con poche persone o in gruppi numerosi?", "category": "Stili di Vita e Preferenze" },
+    { "question": "Qual è la caratteristica fisica che trovi più attraente in un partner?", "category": "Sesso e Intimità " },
+    { "question": "Qual è il complimento più bello che potresti ricevere durante il sesso?", "category": "Sesso e Intimità " },
+    { "question": "C’è un aspetto del sesso che vorresti approfondire?", "category": "Sesso e Intimità " },
+    { "question": "Hai mai avuto una fantasia sessuale? Quale?", "category": "Sesso e Intimità " },
+    { "question": "Quanto per te è importante la connessione emotiva durante il sesso?", "category": "Sesso e Intimità " },
+    { "question": "C’è un rapporto sessuale che ricordi in modo particolare?", "category": "Sesso e Intimità " },
+    { "question": "C’è un gesto o un dettaglio che ti fa eccitare subito?", "category": "Sesso e Intimità " },
+    { "question": "C’è qualcosa che ti mette a tuo agio o ti rilassa in un momento intimo?", "category": "Sesso e Intimità " },
+    { "question": "Se potessi descrivere il tuo rapporto sessuale ideale, come sarebbe?", "category": "Sesso e Intimità " },
+    { "question": "Hai mai desiderato vivere un’esperienza sessuale in un luogo insolito?", "category": "Sesso e Intimità " },
+    { "question": "Confida un segreto sulla tua vita sessuale che non hai mai detto a nessuno?", "category": "Sesso e Intimità " },
+    { "question": "Vorresti mai provare un rapporto a tre?", "category": "Sesso e Intimità " },
+    { "question": "Durante i rapporti sessuali parli oppure resti in silenzio?", "category": "Sesso e Intimità " },
+    { "question": "Quanti partner sessuali hai avuto?", "category": "Sesso e Intimità " },
+    { "question": "A che età hai avuto il primo rapporto sessuale?", "category": "Sesso e Intimità " },
+    { "question": "A che età hai avuto la prima interazione con il sesso?", "category": "Sesso e Intimità " },
+    { "question": "Hai mai provato desiderio sessuale per qualcuno molto più giovane o molto più vecchio di te?", "category": "Sesso e Intimità " },
+    { "question": "Cosa ne pensi del sesso orale? E del sesso anale?", "category": "Sesso e Intimità " },
+    { "question": "C’è una cosa che vorresti provare ma che non hai ancora avuto il coraggio di fare?", "category": "Sesso e Intimità " },
+    { "question": "Cosa rappresenta per te la sessualità in una relazione?", "category": "Sesso e Intimità " },
+
+    
 ]
