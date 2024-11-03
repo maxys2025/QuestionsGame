@@ -1,33 +1,26 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const domandaElement = document.getElementById('domanda');
-    const categoriaElement = document.getElementById('categoria');
-    const button = document.getElementById('button');
-    
-    let domande = [];
+const questionBox = document.getElementById("questionBox");
+const questionText = document.getElementById("question");
+const randomQuestionButton = document.getElementById("randomQuestionButton");
+let questions = [];
 
-    // Carica il file JSON
-    fetch('questions.json')
-        .then(response => response.json())
-        .then(data => {
-            domande = data;
-            // Seleziona una domanda casuale all'inizio
-            scegliDomandaCasuale();
-        })
-        .catch(error => console.error('Errore nel caricamento del file JSON:', error));
+// Carica le domande dal file JSON
+fetch('questions.json')
+    .then(response => response.json())
+    .then(data => {
+        questions = data; // Assegna le domande caricate all'array
+    })
+    .catch(error => console.error('Errore nel caricamento delle domande:', error));
 
-    // Funzione per scegliere una domanda casuale
-    function scegliDomandaCasuale() {
-        const indiceCasuale = Math.floor(Math.random() * domande.length);
-        const domandaSelezionata = domande[indiceCasuale];
+randomQuestionButton.addEventListener("click", () => {
+    if (questions.length > 0) {
+        const randomIndex = Math.floor(Math.random() * questions.length);
+        const selectedQuestion = questions[randomIndex].question;
+        questionText.textContent = selectedQuestion;
 
-        // Aggiorna il contenuto e i colori
-        domandaElement.textContent = domandaSelezionata.text;
-        categoriaElement.textContent = domandaSelezionata.category;
-        document.body.style.backgroundColor = domandaSelezionata.backgroundColor;
-        domandaElement.style.color = domandaSelezionata.textColor;
-        categoriaElement.style.color = domandaSelezionata.textColor;
+        // Cambia colore del box
+        const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+        questionBox.style.backgroundColor = randomColor;
+    } else {
+        questionText.textContent = "Caricamento domande...";
     }
-
-    // Event listener per il pulsante
-    button.addEventListener('click', scegliDomandaCasuale);
 });
