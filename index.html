@@ -3,16 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domande a Rotazione</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Domande Casuali</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f0f0; /* colore di sfondo predefinito */
+        }
+        #domanda {
+            font-size: 24px;
+            margin: 20px;
+            text-align: center;
+        }
+        #categoria {
+            font-size: 18px;
+            margin: 10px;
+            text-align: center;
+        }
+        #button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    <div id="question-box" class="question-box">
-        <p id="question-category"></p> <!-- Categoria della domanda -->
-        <p id="question-text"></p>     <!-- Testo della domanda -->
-    </div>
-    <button id="next-question-btn">Domanda Casuale</button>
-
-    <script src="script.js"></script>
+    <div id="domanda"></div>
+    <div id="categoria"></div>
+    <button id="button">Domanda Casuale</button>
+    <script src="script.js"></script> <!-- Assicurati di usare il nome corretto del tuo file JS -->
 </body>
 </html>
