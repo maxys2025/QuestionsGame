@@ -1,0 +1,6 @@
+[
+    { "text": "Qual è il tuo colore preferito?", "type": "personal" },
+    { "text": "Qual è la capitale d'Italia?", "type": "general" },
+    { "text": "Qual è il tuo film preferito?", "type": "personal" },
+    { "text": "Quanti continenti ci sono?", "type": "general" }
+]
