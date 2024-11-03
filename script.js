@@ -2,7 +2,12 @@ let questions = [];
 
 // Carica il file JSON
 fetch('questions.json')
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
     .then(data => {
         questions = data;
         displayRandomQuestion();
@@ -11,9 +16,19 @@ fetch('questions.json')
 
 // Funzione per visualizzare una domanda casuale
 function displayRandomQuestion() {
+    if (questions.length === 0) {
+        document.getElementById('question').innerText = "Nessuna domanda disponibile.";
+        return;
+    }
+    
     const questionBox = document.getElementById('question');
+    const categoryBox = document.getElementById('category');
+    
     const randomIndex = Math.floor(Math.random() * questions.length);
-    questionBox.innerText = questions[randomIndex].question; // Assicurati che il tuo JSON abbia questa struttura
+    const selectedQuestion = questions[randomIndex];
+    
+    categoryBox.innerText = selectedQuestion.category; // Mostra la categoria
+    questionBox.innerText = selectedQuestion.question; // Mostra la domanda
 }
 
 // Aggiungi un evento al pulsante
