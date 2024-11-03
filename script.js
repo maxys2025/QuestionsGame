@@ -14,9 +14,13 @@ async function loadQuestions() {
 function displayQuestion() {
     if (questions.length > 0) {
         const questionBox = document.getElementById('question-box');
+        const questionText = document.getElementById('question-text');
+        const questionCategory = document.getElementById('question-category'); // Nuovo elemento per la categoria
         const question = questions[currentQuestionIndex];
         
-        questionBox.textContent = question.text;
+        // Imposta il testo della domanda e la categoria
+        questionText.textContent = question.text;
+        questionCategory.textContent = `Categoria: ${question.category}`; // Mostra la categoria
 
         // Cambia colore del box in base al tipo
         if (question.type === "personal") {
@@ -30,7 +34,7 @@ function displayQuestion() {
 }
 
 document.getElementById('next-question-btn').addEventListener('click', () => {
-    currentQuestionIndex = (currentQuestionIndex + 1) % questions.length; // Cicla le domande
+    currentQuestionIndex = Math.floor(Math.random() * questions.length); // Seleziona un indice casuale
     displayQuestion();
 });
 
