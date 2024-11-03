@@ -35,14 +35,14 @@
         "textColor": "#000000"
     },
     {
-        "text": "C’è un film o un libro che ti ha influenzato particolarmente?",
+        "text": "C'è un film o un libro che ti ha influenzato particolarmente?",
         "type": "personal",
         "category": "Passato e Ricordi",
         "backgroundColor": "#FFFACD",
         "textColor": "#000000"
     },
     {
-        "text": "C’è un oggetto che hai conservato per anni?",
+        "text": "C'è un oggetto che hai conservato per anni?",
         "type": "personal",
         "category": "Passato e Ricordi",
         "backgroundColor": "#FFFACD",
@@ -160,7 +160,6 @@
         "backgroundColor": "#2E8B57",
         "textColor": "#FAEBD7"
     },
-
     {
         "text": "Come definiresti la tua visione della felicità?",
         "type": "personal",
@@ -183,7 +182,7 @@
         "textColor": "#000000"
     },
     {
-        "text": "Che cosa significa per te "successo"?",
+        "text": "Che cosa significa per te \"successo\"?",
         "type": "personal",
         "category": "Valori e Credenze",
         "backgroundColor": "#ADD8E6",
@@ -232,262 +231,24 @@
         "textColor": "#000000"
     },
     {
-        "text": "Come gestisci le differenze di opinioni nelle amicizie?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Preferisci la sincerità anche quando è dolorosa?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Qual è la cosa più preziosa che possiedi e perché?",
-        "type": "personal",
-        "category": "Valori e Credenze",
-        "backgroundColor": "#ADD8E6",
-        "textColor": "#000000"
-    },
-    {
-        "text": "Sei una persona mattiniera o nottambula?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è il tuo modo preferito per rilassarti dopo una giornata impegnativa?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Preferisci le vacanze al mare, in montagna o in città?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Se avessi un giorno libero, cosa ti piacerebbe fare?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è il tuo cibo o piatto preferito?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "C’è un’attività che hai sempre sognato fare ma non hai mai provato?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Sei più una persona che pianifica o preferisci andare all'avventura?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Hai una serie TV o un film che potresti riguardare mille volte?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Ti consideri più introverso o estroverso?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Come ti immagini una giornata perfetta?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è il tuo genere di film preferito?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Ti piace cucinare? Qual è il tuo piatto forte?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Preferisci vivere in città, in campagna o al mare?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è l'attività che ti rilassa di più?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Preferisci viaggiare con poche persone o in gruppi numerosi?",
-        "type": "personal",
-        "category": "Stili di Vita e Preferenze",
-        "backgroundColor": "#8B4513",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è la caratteristica fisica che trovi più attraente in un partner?",
+        "text": "Qual è stato uno dei momenti più intimi e vulnerabili della tua vita?",
         "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
+        "category": "Emozioni e Vulnerabilità",
+        "backgroundColor": "#FF6347",
+        "textColor": "#FFFFFF"
     },
     {
-        "text": "Qual è il complimento più bello che potresti ricevere durante il sesso?",
+        "text": "Ti capita mai di sentirti solo, anche quando sei con altre persone?",
         "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
+        "category": "Emozioni e Vulnerabilità",
+        "backgroundColor": "#FF6347",
+        "textColor": "#FFFFFF"
     },
     {
-        "text": "C’è un aspetto del sesso che vorresti approfondire?",
+        "text": "Qual è una paura o insicurezza che raramente condividi?",
         "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Hai mai avuto una fantasia sessuale? Quale?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Quanto per te è importante la connessione emotiva durante il sesso?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "C’è un rapporto sessuale che ricordi in modo particolare?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "C’è un gesto o un dettaglio che ti fa eccitare subito?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "C’è qualcosa che ti mette a tuo agio o ti rilassa in un momento intimo?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Se potessi descrivere il tuo rapporto sessuale ideale, come sarebbe?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Hai mai desiderato vivere un’esperienza sessuale in un luogo insolito?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Confida un segreto sulla tua vita sessuale che non hai mai detto a nessuno?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Vorresti mai provare un rapporto a tre?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Durante i rapporti sessuali parli oppure resti in silenzio?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Quanti partner sessuali hai avuto?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Hai mai provato desiderio sessuale per qualcuno molto più giovane o molto più vecchio di te?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Cosa ne pensi del sesso orale? E del sesso anale?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è la caratteristica fisica che trovi più attraente in un partner?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "Qual è il complimento più bello che potresti ricevere durante il sesso?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
-    },
-    {
-        "text": "C’è un aspetto del sesso che vorresti approfondire?",
-        "type": "intimate",
-        "category": "Sesso e Intimità",
-        "backgroundColor": "#DC143C",
-        "textColor": "#FAEBD7"
+        "category": "Emozioni e Vulnerabilità",
+        "backgroundColor": "#FF6347",
+        "textColor": "#FFFFFF"
     }
 ]
