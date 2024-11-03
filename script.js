@@ -1,41 +1,33 @@
-let questions = [];
-let currentQuestionIndex = 0;
+document.addEventListener('DOMContentLoaded', () => {
+    const domandaElement = document.getElementById('domanda');
+    const categoriaElement = document.getElementById('categoria');
+    const button = document.getElementById('button');
+    
+    let domande = [];
 
-async function loadQuestions() {
-    try {
-        const response = await fetch('questions.json'); // Carica il file JSON
-        questions = await response.json();
-        displayQuestion(); // Mostra la prima domanda
-    } catch (error) {
-        console.error('Errore nel caricamento delle domande:', error);
+    // Carica il file JSON
+    fetch('questions.json')
+        .then(response => response.json())
+        .then(data => {
+            domande = data;
+            // Seleziona una domanda casuale all'inizio
+            scegliDomandaCasuale();
+        })
+        .catch(error => console.error('Errore nel caricamento del file JSON:', error));
+
+    // Funzione per scegliere una domanda casuale
+    function scegliDomandaCasuale() {
+        const indiceCasuale = Math.floor(Math.random() * domande.length);
+        const domandaSelezionata = domande[indiceCasuale];
+
+        // Aggiorna il contenuto e i colori
+        domandaElement.textContent = domandaSelezionata.text;
+        categoriaElement.textContent = domandaSelezionata.category;
+        document.body.style.backgroundColor = domandaSelezionata.backgroundColor;
+        domandaElement.style.color = domandaSelezionata.textColor;
+        categoriaElement.style.color = domandaSelezionata.textColor;
     }
-}
 
-function displayQuestion() {
-    if (questions.length > 0) {
-        const questionBox = document.getElementById('question-box');
-        const questionText = document.getElementById('question-text');
-        const questionCategory = document.getElementById('question-category'); // Nuovo elemento per la categoria
-        const question = questions[currentQuestionIndex];
-        
-        // Imposta il testo della domanda e la categoria
-        questionText.textContent = question.text;
-        questionCategory.textContent = `Categoria: ${question.category}`; // Mostra la categoria
-
-        // Cambia colore del box in base al tipo
-        if (question.type === "personal") {
-            questionBox.style.backgroundColor = "#FFD700"; // Giallo per le domande personali
-        } else if (question.type === "general") {
-            questionBox.style.backgroundColor = "#ADD8E6"; // Azzurro per le domande generali
-        } else {
-            questionBox.style.backgroundColor = "#f0f0f0"; // Colore di default
-        }
-    }
-}
-
-document.getElementById('next-question-btn').addEventListener('click', () => {
-    currentQuestionIndex = Math.floor(Math.random() * questions.length); // Seleziona un indice casuale
-    displayQuestion();
+    // Event listener per il pulsante
+    button.addEventListener('click', scegliDomandaCasuale);
 });
-
-loadQuestions(); // Inizia caricando le domande
