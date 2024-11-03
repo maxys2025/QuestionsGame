@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domande Casuali</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>Domande per Fare Amicizia</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        #container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #question {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #random-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="question-box" id="questionBox">
-            <h2 id="question">Clicca sul pulsante per una domanda!</h2>
-        </div>
-        <button id="randomQuestionButton">Domanda Casuale</button>
+    <div id="container">
+        <div id="question">Clicca il pulsante per una domanda!</div>
+        <button id="random-button">Domanda casuale</button>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
