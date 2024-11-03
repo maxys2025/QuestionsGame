@@ -1,27 +1,31 @@
 body {
-    background-color: #696969; /* Grigio chiaro */
+    background-color: #f0f0f0; /* colore di sfondo fisso */
+    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
 }
 
 .question-box {
     padding: 20px;
     border-radius: 10px;
-    color: #333;
-    text-align: center;
-    font-size: 1.5em;
-    max-width: 400px;
-    margin-bottom: 20px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s; /* Transizione per il cambio di colore */
+    background-color: #ffffff; /* Colore di sfondo iniziale del box */
 }
 
 button {
+    margin-top: 20px;
     padding: 10px 20px;
-    font-size: 1em;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
 }
